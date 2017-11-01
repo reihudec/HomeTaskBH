@@ -1,12 +1,12 @@
-//task1
-/*var admin, 
+//задание 1
+var admin, 
     name = 'Василий';
 admin = name;
 console.log(admin);
-*/
 
-//task2
-/*var result;
+
+//задание 2
+var result;
 result = prompt('Enter number','0');
 if (isNaN(+result)){
     alert('undefined');
@@ -22,10 +22,10 @@ else if (+result < 0){
 }
 else {
     alert('Значение равно нулю');
-}*/
+}
 
-//task3
-/*var login,
+//задание 3
+var login,
     password;
 login = prompt('Введите логин');
 if (login == 'Админ'){
@@ -45,10 +45,10 @@ else if (password === undefined){
 }
 else {
         alert('Пароль неверен');
-}*/
+}
 
-//task4
-/*var age;
+//задание 4
+var age;
 age = prompt('Введите возраст');
 if (age === null || age === undefined)
     {
@@ -63,44 +63,44 @@ else if (age<0)
 }
 else {
     alert('Возраст вне промежутка от 14 до 90');   
-}*/
+}
 
-//task5
-/*for (var i=1; i<=10; i++){
+//задание 5
+for (var i=1; i<=10; i++){
     if (i%2 == 0)
         {
             console.log(i);
         }
-}*/
+}
 
-//task6
-/*var number;
+//задание 6
+var number;
 do {
     number = prompt('Введите число больше 100');
     console.log(+number);
     if (isNaN(+number)){
         number = prompt('Введите число');
         }
-} while (+number <= 100 && number!=null)*/
+} while (+number <= 100 && number!=null)
 
 //Доп.задание 6
-/*var a, b, c;
+var a, b, c;
 a = prompt('Введите a');
 b = prompt('Введите b');
 console.log(+a);
 console.log(+b);
 c = (+a + +b < 4) ? 'Мало':'Много';
-console.log(c);*/
+console.log(c);
 
 //Доп.задание 7
-/*var i = 0;
+var i = 0;
 while (i<3){
     alert( "номер " + i + "!" );
     i++;
-}*/
+}
 
 //Доп.задание 8
-/*var a;
+var a;
 a = prompt('Browser');
 if (a == 'IE'){
     alert( 'О, да у вас IE!' );
@@ -110,7 +110,7 @@ else if (a == 'Chrome' || a == 'Firefox' ||a == 'Safari' ||a == 'Opera'){
 }
 else {
     alert( 'Мы надеемся, что и в вашем браузере все ок!' );
-}*/
+}
 
 
 

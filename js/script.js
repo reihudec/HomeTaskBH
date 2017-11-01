@@ -4,7 +4,6 @@ var admin,
 admin = name;
 console.log(admin);
 
-
 //задание 2
 var result;
 result = prompt('Enter number','0');
@@ -111,9 +110,3 @@ else if (a == 'Chrome' || a == 'Firefox' ||a == 'Safari' ||a == 'Opera'){
 else {
     alert( 'Мы надеемся, что и в вашем браузере все ок!' );
 }
-
-
-
-
-
-

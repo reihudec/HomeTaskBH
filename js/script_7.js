@@ -2,7 +2,6 @@
 
 (function ($) {
     $(document).ready(function () {
-        //Занятие 7 (слайдер)
         $(".lp-slider3").owlCarousel({
             items: 1
         });

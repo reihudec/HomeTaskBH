@@ -3,7 +3,9 @@
     $scope.priceOrder = 'name';
     $scope.reverse = true;
     $scope.setOrder = function(order){  
-    $scope.reverse = ($scope.priceO
+    $scope.reverse = ($scope.priceOrder === order) ? !$scope.reverse : false;
+    $scope.priceOrder = order;
+    }
     
  //index.html
  <tr ng-repeat="price in priceList | filter:priceSearch | orderBy:priceOrder:reverse">
